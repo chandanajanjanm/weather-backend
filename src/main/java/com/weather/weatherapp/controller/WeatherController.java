@@ -9,7 +9,8 @@ import java.nio.file.*;
 import java.util.*;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*")
+
 public class WeatherController {
 
     private final String apiKey = "6ff3dfea0074132f991db4bbc03ebb09";
